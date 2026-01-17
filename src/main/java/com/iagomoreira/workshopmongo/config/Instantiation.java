@@ -17,8 +17,6 @@ public class Instantiation implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		
-		System.out.println("=== EXECUTANDO CommandLineRunner ===");
 
 		userRepository.deleteAll();
 
